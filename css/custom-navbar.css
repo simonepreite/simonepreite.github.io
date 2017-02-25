@@ -1,0 +1,78 @@
+.navbar-nav li a {
+	padding: 5px 0;
+    margin: 10px 25px;
+    font-weight: bold;
+    border-bottom: 1px solid transparent;
+    transition: 0.2s border-color linear;
+}
+
+.navbar-nav li a:hover {
+	padding: 5px 0;
+    margin: 10px 25px;
+    font-weight: bold;
+    border-bottom: 1px solid;
+    transition: 0.2s border-color linear;
+    background: none;
+}
+
+.navbar-nav li a:focus {
+    background: none;
+}
+
+nav.navbar {
+	transition: 0.2s all ease-in-out;
+}
+
+.custom-expanded {
+	transition: 0.2s all ease-in-out;
+}
+
+.custom-collapsed {
+	padding: 15px 0;
+}
+
+ ul.nav .open>a, ul.nav .open>a:focus, ul.nav .open>a:hover {
+    background: none;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+    border: none;
+}
+
+button.navbar-toggle .icon-bar{
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+button.animate-menu .icon-bar:nth-child(1){
+    transform: translateY(10px) rotateZ(45deg);
+    -webkit-transition: transform 0.4s linear;
+    -moz-transition: transform 0.4s linear;
+    transition: transform 0.4s linear;
+}
+
+button.animate-menu .icon-bar:nth-child(2){
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+button.animate-menu .icon-bar:nth-child(3){
+    transform: translateY(-2px) rotateZ(-45deg);
+    -webkit-transition: transform 0.4s linear;
+    -moz-transition: transform 0.4s linear;
+    transition: transform 0.4s linear;
+}
+
+ul.dropdown-menu {
+    background: #fff;
+}
+
+@media (max-width: 767px){
+    .navbar-nav .open .dropdown-menu {
+        background: #fff;
+    }
+}

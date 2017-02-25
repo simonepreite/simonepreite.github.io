@@ -1,44 +1,14 @@
-html,body{
-  margin:0;
-  padding: 0;
-  height: 100%
-}
-
-div#container{
-  position: relative;
-  height:100%
-}
-
-body>div#container{
-  height: auto;
-  min-height: 100%
-}
-
-div#content{
-  padding: 0 1.5em 5em
-}
-
-div#footer{
-  position:absolute;
-  bottom: 0;
-  width: 100%
-}
-
 body {
     background-color: black;
     background-image: url("../img/portfolio/openday_77.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
+    padding: 0;
 }
 
-.navbar-nav li a:hover {
-    color: #fff;
-    font-weight: bold;
-    border-bottom: 2px solid #fff;
-    transition: 0.2s border-color linear;
-    background: none;
-}
-
-.fa{
+.social{
+  width: 10%;
   padding-top: 7px;
+  filter: invert(100%);
+  height: auto;
 }

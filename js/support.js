@@ -1,8 +1,9 @@
 $(document).ready(function(){
-  $('body').click(function(e){
-      if (e.target === this) {
-        alert("cambio pagina");
-    //window.location = "link.html"
-      }
-  });
+  var custom = {
+        color: "#fff",
+        change_height_on_scroll: true,
+        transparent: false,
+        nav_background: "black"
+  }
+  $(".custom-navbar").navbar(custom);
 });
