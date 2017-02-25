@@ -19,13 +19,22 @@
         });
       });
     </script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('#footer').('template/footer.html');
+    });
+    </script>
       <link  href="css/style.css" rel="stylesheet" type="text/css">
+      <link  href="css/footer.css" rel="stylesheet" type="text/css">
       <link  href="css/custom-navbar.css" rel="stylesheet" type="text/css">
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-fixed-top custom-navbar">
       <div class="container-fluid">
+          <div class="navbar-header custom-collapsed">
+            <a class="navbar-brand" href="#">ELEONORA TRULLO</a>
+          </div>
         <div class="navbar-header custom-collapsed">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <span class="icon-bar"></span>
@@ -50,11 +59,8 @@
         </div>
       </div>
     </nav>
+    <br/><br/><br/><br/><br/><br/><br/><br/>
     <div class="container"> </div>
-    <footer class="footer">
-      <div class="container">
-        <p class="text-muted">Place sticky footer content here.</p>
-      </div>
-    </footer>
+    <div id="footer"/>
   </body>
 </html>

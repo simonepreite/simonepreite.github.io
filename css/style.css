@@ -2,13 +2,22 @@ body {
     background-color: black;
     background-image: url("../img/portfolio/openday_77.jpg");
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     padding: 0;
 }
 
-.social{
-  width: 10%;
-  padding-top: 7px;
-  filter: invert(100%);
-  height: auto;
+.float-left{
+  float:left;
+}
+
+.navbar-brand{
+  color: white;
+}
+
+.navbar-brand{
+  color: white;
+}
+
+.navbar-brand:hover{
+  color: white;
 }
