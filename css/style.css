@@ -22,29 +22,15 @@ body {
   color: white;
 }
 
-.box-foto{
-  background: #e3e3e3;
-    max-width:850px;
-    margin:0 auto;
-    padding: 20px;
-    text-align: center;
+.spessore{
+  margin-top: 100px;
 }
 
-#griglia {
-  padding: 0;
-  margin: 0;
+.light-img {
+    width: 7rem;
+    border-radius: 4px;
 }
 
-#griglia > li {
-  border: 2px solid #333333;
-  display: inline-block;
-  width:  160px;
-  height: 160px;
-  margin: 10px;
-  background-color: #abe2ff;
-}
-
-.box-foto img{
-  max-width: 300px;
-  max-height: auto;
+.centered{
+  margin-left: 30%;
 }
