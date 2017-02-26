@@ -2,6 +2,7 @@ body {
     background-color: black;
     background-image: url("../img/logos/home.jpg");
     background-size: 40%;
+    background-position: center;
     background-repeat: no-repeat;
     padding: 0;
 }

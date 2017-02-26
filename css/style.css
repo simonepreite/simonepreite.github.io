@@ -36,7 +36,7 @@ th, td {
 }
 
 .light-img-big {
-    width: 40rem;
+    width: 29rem;
     border-radius: 4px;
 }
 
@@ -47,4 +47,8 @@ th, td {
 
 .centered{
   margin-left: 30%;
+}
+
+.margin-top{
+  margin-top: 10px;
 }
