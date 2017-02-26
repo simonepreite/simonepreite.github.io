@@ -1,5 +1,13 @@
 body{
-  background-color: #434343;
+  background-color: #202020;
+}
+
+table {
+    border-spacing: 5px;
+}
+
+th, td {
+    padding: 15px;
 }
 
 .float-left{
@@ -23,7 +31,17 @@ body{
 }
 
 .light-img {
-    width: 18rem;
+    width: 20rem;
+    border-radius: 4px;
+}
+
+.light-img-big {
+    width: 40rem;
+    border-radius: 4px;
+}
+
+.light-img-small {
+    width: 11rem;
     border-radius: 4px;
 }
 
