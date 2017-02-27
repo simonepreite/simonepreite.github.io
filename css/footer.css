@@ -6,17 +6,18 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 80px;
+  margin-bottom: 130px;
 }
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 80px;
+  height: 120px;
   background-color: black;
   margin-left: 0px;
   margin-right: 0px;
+  margin-top: 20px;
 }
 
 
@@ -32,8 +33,10 @@ body > .container {
 }
 
 .footer > .container {
-  padding-right: 0px;
-  padding-left: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 code {
@@ -51,4 +54,9 @@ code {
     position: absolute;
     right: 10px;
     padding: 10px;
+}
+
+#contatti{
+  color: white;
+  font-weight: 500;
 }
