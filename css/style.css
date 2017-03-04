@@ -54,6 +54,10 @@ th, td {
   margin-top: 10px;
 }
 
+.margin-footer{
+  margin-bottom: 200px;
+}
+
 @media screen and (max-width: 1300px) {
   .centered {
     margin-left:10%;
@@ -70,4 +74,8 @@ th, td {
 
 .vibes {
   font-family: 'Great Vibes', cursive;
+}
+
+.gloria-halleluia{
+  font-family: 'Gloria Hallelujah', cursive;
 }

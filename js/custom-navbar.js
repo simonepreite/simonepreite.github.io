@@ -18,11 +18,11 @@ $(document).ready(function(){
                 if(custom.nav_background != undefined) config.nav_background = custom.nav_background;
                 if(custom.change_height_on_scroll != undefined) config.change_height_on_scroll = custom.change_height_on_scroll;
 
-                var font_script = document.createElement("link");
+              /*  var font_script = document.createElement("link");
                 $(font_script).attr("href", "https://fonts.googleapis.com/css?family=Raleway:200");
                 $(font_script).attr("rel", "stylesheet");
                 $("head").append(font_script);
-                $("ul.navbar-nav").css("font-family", "'Raleway', sans-serif");
+                $("ul.navbar-nav").css("font-family", "'Raleway', sans-serif");*/
 
                 if(config.change_height_on_scroll){
                     $(window).scroll(function(){
