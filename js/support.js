@@ -1,3 +1,11 @@
+function is_Mobile(){
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile |Opera Mini/i.test(navigator.userAgent) ) {
+      return true;
+    }
+    return false;
+}
+
+
 $(document).ready(function(){
   var custom = {
         color: "#fff",
@@ -12,6 +20,8 @@ $(document).ready(function(){
       $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
   });
   $("#editorial").click(function(){
-    window.open ('editorial.html','_self',false);
+    if(!is_Mobile){
+      window.open ('editorial.html','_self',false);
+    }
   });
 });
