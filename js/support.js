@@ -11,4 +11,7 @@ $(document).ready(function(){
     }, function() {
       $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
   });
+  $("#editorial").click(function(){
+    window.open ('editorial.html','_self',false);
+  });
 });
