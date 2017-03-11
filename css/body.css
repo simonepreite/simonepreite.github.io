@@ -1,8 +1,27 @@
 body {
     background-color: black;
     background-image: url("../img/logos/home.jpg");
-    background-size: 35%;
+    background-size: 40%;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0;
+}
+
+
+@media screen and (max-width: 550px) {
+  body {
+    background-size: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-size: 80%;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  body {
+    background-size: 75%;
+  }
 }

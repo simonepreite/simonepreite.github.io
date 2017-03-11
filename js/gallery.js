@@ -26,5 +26,7 @@ $(document).ready(function(){
 	tiles_col_width:235,
 	tile_border_color: "#ffffff",
 	tile_enable_outline:true,
+  slider_loader_type: 3,						//shape of the loader (1-7)
+	slider_loader_color:"black",				//color of the loader: (black , white)
 });
 });
