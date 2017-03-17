@@ -84,8 +84,8 @@ function UGSlider(){
 		  slider_control_zoom:true,						//true, false - enable zooming control
 		  slider_zoom_mousewheel: true,					//enable zoom on mousewheel
 		  slider_vertical_scroll_ondrag: false,			//vertical scroll on slider area drag
-		  slider_loader_type: 3,						//shape of the loader (1-7)
-		  slider_loader_color:"black",					//color of the loader: (black , white)
+		  slider_loader_type: 1,						//shape of the loader (1-7)
+		  slider_loader_color:"white",					//color of the loader: (black , white)
 		  slider_enable_links: true,					//enable slide as link functionality
 		  slider_links_newpage: false,					//open the slide link in new page
 
